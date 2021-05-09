@@ -9,6 +9,6 @@ public class Bediening extends Personeel{
     }
 
     public boolean checkId(int leeftijd, boolean legitimatieBewijs){
-        return ((leeftijd > 18) && (legitimatieBewijs));
+        return ((leeftijd >= 18) && (legitimatieBewijs));
     }
 }
