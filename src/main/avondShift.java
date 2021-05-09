@@ -1,5 +1,6 @@
 public class avondShift extends Personeel{
     boolean vakantie;
+    boolean x;
 
     public avondShift(String naam, int leeftijd, boolean vakantie){
         super(naam, leeftijd);
@@ -15,4 +16,5 @@ public class avondShift extends Personeel{
             return "Je mag tot sluit werken.";
         }
     }
+
 }
