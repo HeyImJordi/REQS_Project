@@ -22,7 +22,7 @@ public class bruiloftCatering {
              prijsExcl = prijsExcl + (aantalGasten * 7.50) - voorrijKosten;
          } else if (aantalGasten >= 200) {
              prijsExcl = prijsExcl + (aantalGasten * 10.95) - voorrijKosten;
-         } else if (aantalGasten > 100) {
+         } else if (aantalGasten >= 100) {
              prijsExcl = prijsExcl + (aantalGasten * 17.95);
          }
 
