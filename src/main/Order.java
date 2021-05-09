@@ -16,4 +16,6 @@ public class Order {
             return aantalMensen * 27.95;
         }
     }
+
+
 }
